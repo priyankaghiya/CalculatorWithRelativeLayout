@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="40sp"
+        android:text="Calculator" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="80sp"
+        android:hint="ENTER FIRST NUMBER" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="170sp"
+        android:layout_marginLeft="80sp"
+        android:hint="ENTER SECOND NUMBER" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDITION"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="250sp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBTRACTION"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="250sp"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIVISION"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="350sp"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICATION"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="350sp"/>
+
+
+</RelativeLayout>
